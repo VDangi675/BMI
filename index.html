@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>BMI CALCUATER</title>
+    <script src="index.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+          
+            <div class="b1">
+                <h1>Age</h1>
+                <input id="input-1" type="text"/> 
+                <p>Ages: 2-120</p>
+            </div>
+            <div class="b2">
+                <h1>Gender</h1>
+                <p>Male</p>
+                <input id="input-2" type="radio"/> 
+                <p>Female</p>
+                <input id="input-3" type="radio"/> 
+            </div>
+            <div class="b3">
+                <h1>Height</h1>
+                <input class="input-4"  placeholder="cm" type="text"/> 
+            </div>
+            <div class="b4">
+                <h1>Weight</h1>
+                <input class="input-5" placeholder="kg" type="text"/> 
+            </div>
+            <div class="btn">
+                <button class="btn-1" onclick="Calculate()" >Caculate</button>
+                <button  class="btn-2" onclick="Clear()">Clear</button>
+                <h2 class="result"></h2>
+                <p class="statement"> </p>
+            </div>
+           
+        </div>
+    </div>
+</body>
+</html>
